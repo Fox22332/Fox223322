@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Викторина</h1>
+
+        <!-- Вопрос 1: Выбор ответа -->
+        <div class="question">
+            <h3>Какой язык программирования используется для разработки веб-страниц?</h3>
+            <button class="answer-btn" data-correct="false">Java</button>
+            <button class="answer-btn" data-correct="true">JavaScript</button>
+            <button class="answer-btn" data-correct="false">C++</button>
+            <p class="feedback"></p>
+        </div>
+
+        <!-- Вопрос 2: Текстовый ответ -->
+        <div class="question">
+            <h3>Какой символ используется для обозначения комментариев в языке JavaScript?</h3>
+            <input type="text" id="user-answer">
+            <button class="submit-btn">Отправить</button>
+            <p class="feedback"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
